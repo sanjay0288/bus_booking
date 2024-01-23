@@ -1,8 +1,3 @@
-package com.example.service;
-
-import org.springframework.stereotype.Service;
-
-@Service
 public class BusBookingService {
 
     public String bookBusTicket(String destination, int numberOfTickets) {
@@ -10,4 +5,3 @@ public class BusBookingService {
         return "Bus tickets booked for " + numberOfTickets + " passengers to " + destination;
     }
 }
-
