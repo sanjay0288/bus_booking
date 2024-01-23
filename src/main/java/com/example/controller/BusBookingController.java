@@ -15,7 +15,8 @@ public class BusBookingController {
     @GetMapping("/bookBusTicket")
     public String bookBusTicket(Model model) {
         // Additional logic if needed
+
+        // Assuming you have a Thymeleaf template named "bookBusTicket.html" in the "templates" folder
         return "bookBusTicket";
     }
 }
-
